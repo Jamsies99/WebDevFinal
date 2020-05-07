@@ -1,0 +1,323 @@
+body{
+  background-color: #F5F5DC;
+}
+
+
+.menu{
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  border-color:#F5F5DC;
+  height:50px;
+  width:100%;
+  box-shadow: 5px 5px #dcdcf5;
+}
+a.title{
+  margin-left:15%;
+  color:#4a63e7;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 25px;
+
+  align-self: center;
+
+}
+a.menuItem{
+  padding: 10px;
+  font-family: arial;
+  color: #9fd366;
+  font-size: 15px;
+}
+
+.item-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding:20px;
+  flex-wrap: nowrap;
+}
+.item {
+  border-radius: 25px;
+  color:#9fd366;
+  background:  white;
+  width: 350px;
+  height: 400px;
+  box-shadow: 5px 5px #dcdcf5;
+}
+
+img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height:200px;
+  width:200px;
+
+}
+.item-title{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    font-family: arial;
+    padding-bottom: 10px;
+}
+.item-description{
+  text-align: center;
+  margin: 5px;
+  font-size: 24px;
+}
+
+.question{
+  font-weight: bold;
+  font-family: arial;
+  font-size: 48px;
+  color:#d3d3d3;
+  text-align: center;
+  margin: 15px;
+  padding-bottom: 20px;
+
+}
+.sections{
+  padding-bottom: 30px;
+}
+
+.progress-bar{
+  background-color: #d3d3d3;
+  width: 100%;
+}
+
+.ad-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+#ad-yes{
+  color: #a52a2a;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  display: none;
+  box-shadow: 5px, 5px, #a52a2a;
+  font-family: arial;
+  text-align: center;
+}
+#ad-no{
+  color: #a52a2a;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  display: none;
+  box-shadow: 5px, 5px, #a52a2a;
+  font-family: arial;
+  text-align: center;
+}
+#myBar{
+  color:white;
+  background-color:#9fd366;
+  width: 1%;
+  height: 20px;
+  font-family: arial;
+  text-align: center;
+}
+.answer{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+.content{
+  border-radius: 12px;
+  color:#9fd366;
+  background:  white;
+  width: auto;
+  height: 400px;
+  box-shadow: 5px 5px #dcdcf5;
+  display: flex;
+  flex-direction: column;
+}
+.content-quiz{
+  border-radius: 12px;
+  color:#9fd366;
+  background:  white;
+  width: auto;
+  height: 800px;
+  box-shadow: 5px 5px #dcdcf5;
+  display: flex;
+  flex-direction: column;
+}
+.divider{
+  height: 2px;
+  width: 65%;
+  background-color:#d3d3d3;
+  align-self: center;
+}
+
+.next {
+  margin-top: 30px;
+  align-self: center;
+  height: 5%;
+  width: 10%;
+  font-family: arial;
+  font-size:24px;
+  border-radius: 12px;
+  background-color: #9fd366; /* Green */
+  border: none;
+  color: #F5F5DC;
+  padding: 30px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 5px 5px #dcdcf5;
+}
+.next:hover{
+  box-shadow: 3px 5px #e7ce4a;
+}
+label{
+  font-family: arial;
+  font size: 16px;
+  margin: 10px;
+}
+a.prompt{
+  font-weight: bold;
+  font-family: arial;
+  font-size: 64px;
+  text-align: center;
+  margin: 15px;
+}
+
+/* Sweep To Bottom */
+.hvr-sweep-to-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+
+.start{
+  margin-top: 50px;
+  align-self: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+  color: white;
+  border-style: solid;
+  border-color: #9fd366;
+  font-family: arial;
+  font-size:12px;
+  text-align: center;
+  line-height: 50px;
+}
+
+
+.yes {
+  height: 100px;
+  width: 100px;
+  background-color: #64ed74;
+  border-radius: 50%;
+  display: inline-block;
+  color: #F5F5DC;
+  border-color: #F5F5DC;
+  font-family: arial;
+  font-size: 24px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.yes:hover{
+  height: 100px;
+  width: 100px;
+  background-color: #F5F5DC;
+  border-radius: 50%;
+  display: inline-block;
+  color:#64ed74;
+  border-color: #F5F5DC;
+  font-family: arial;
+  font-size: 24px;
+  text-align: center;
+  line-height: 100px;
+}
+.yes:visited{
+    background-color: #F5F5DC;
+    color: #64ed74;
+    font-weight: bold;
+}
+.no {
+  height: 100px;
+  width: 100px;
+  background-color: #fab050;
+  border-radius: 50%;
+  display: inline-block;
+  color: #F5F5DC;
+  border-color: #F5F5DC;
+  font-family: arial;
+  font-size:24px;
+  text-align: center;
+  line-height: 100px;
+}
+.no:hover {
+  height: 100px;
+  width: 100px;
+  background-color: #F5F5DC;
+  border-radius: 50%;
+  display: inline-block;
+  color: #fab050;
+  border-color: #F5F5DC;
+  font-family: arial;
+  font-size:24px;
+  text-align: center;
+  line-height: 100px;
+}
+.no:visited{
+    background-color: #F5F5DC;
+    color: #fab050;
+    font-weight: bold;
+}
+
+
+a.hvr-sweep-to-bottom{
+  font-family: arial;
+  font-size:px;
+  text-align: center;
+  line-height: 50px;
+}
+.hvr-sweep-to-bottom:before {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  align-self: center;
+  text-align: center;
+  font-family: arial;
+  font-size:24px;
+  top: -2.5%;
+  left: -210%;
+  right: 0;
+  bottom: 0;
+  background: #9fd366;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
+  color: white;
+}
+.hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}

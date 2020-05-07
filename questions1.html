@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Home Page</title>
+  </head>
+    <body>
+      <script src="q1.js"></script>
+      <script src = "scripts.js"></script>
+
+
+      <!--Title-->
+      <div class="titleBanner">
+        <h1 class = "title"> </h1>
+      </div>
+
+    <!--Menu Bar-->
+      <div class= "menu">
+        <a class="menuItem" onclick= enterHome()>Home</a>
+        <a class="menuItem">What is This?</a>
+        <a class="menuItem">Learn More</a>
+        <a class="title"> The Personality Pilgrimage</a>
+      </div>
+
+    <!--progress bar-->
+    <div class="progress-bar">
+  <div id="myBar">20%</div>
+  </div>
+
+      <!--content-->
+      <div class= "content-quiz">
+
+        <a class = "question"> You forget everyday tasks or items</a>
+        <div class = "answer">
+          <span class="yes" onclick ="showYes()">Yes</span>
+          <span class = "no" onclick ="showNo()">No</span>
+        </div>
+        <span class="divider"></span>
+
+        <a href="questions2.html" class="next">Next</a>
+        <div class ="ad-container">
+          <div id="ad-yes">
+            <img src ="/images/tile.jpg" width="200px"; height = "200px";>
+            <h> Never lose your keys again with tile!</h>
+          </div>
+          <div id="ad-no">
+            <img src ="/images/calendar.jpg" width="200px"; height = "200px";>
+            <h>Stay on track on the go with calendur!</h>
+          </div>
+
+
+        </div>
+      </div>
+
+
+  </body>
+</html>
